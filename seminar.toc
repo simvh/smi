@@ -14,23 +14,23 @@
 \contentsline {subsection}{\numberline {2.11}McBryde-Thomas Projektion}{5}
 \contentsline {subsection}{\numberline {2.12}Sinusoidale Projektion}{6}
 \contentsline {subsection}{\numberline {2.13}\IeC {\"A}quidistante Zylinder Projektion}{6}
-\contentsline {subsection}{\numberline {2.14}Cassini Projection}{7}
-\contentsline {subsection}{\numberline {2.15}Mercator Projection}{7}
-\contentsline {subsection}{\numberline {2.16}Transverse Mercator Projection}{7}
+\contentsline {subsection}{\numberline {2.14}Cassini Projektion}{6}
+\contentsline {subsection}{\numberline {2.15}Mercatorprojektion}{6}
+\contentsline {subsection}{\numberline {2.16}Transversale Mercatorprojektion}{7}
 \contentsline {subsection}{\numberline {2.17}Oblique Mercator Projection}{7}
-\contentsline {subsection}{\numberline {2.18}Polyconic Projection}{7}
-\contentsline {subsection}{\numberline {2.19}Miller Cylindrical Projection}{7}
-\contentsline {subsection}{\numberline {2.20}Gall Stereographic Projection}{7}
-\contentsline {subsection}{\numberline {2.21}Cylindrial Equal-Area Projection}{7}
-\contentsline {subsection}{\numberline {2.22}Lambert Conformal Projection}{7}
-\contentsline {subsection}{\numberline {2.23}Lambert Azimuthal Equal Area Projection}{7}
-\contentsline {subsection}{\numberline {2.24}Stereographic Projection}{7}
-\contentsline {subsection}{\numberline {2.25}Equidistant Conic Projection}{7}
-\contentsline {subsection}{\numberline {2.26}Albers Equal Area Projection}{7}
-\contentsline {subsection}{\numberline {2.27}Polar Stereographic Projection}{7}
-\contentsline {subsection}{\numberline {2.28}Polar Lambert Azimuthal Projection}{7}
-\contentsline {subsection}{\numberline {2.29}Polar Azimuthal Equidistant Projection}{7}
-\contentsline {subsection}{\numberline {2.30}van der Grinten Projection}{7}
-\contentsline {section}{\numberline {3}Basemap}{8}
-\contentsline {subsection}{\numberline {3.1}Einf\IeC {\"u}hrung}{8}
-\contentsline {subsection}{\numberline {3.2}Dependencies}{8}
+\contentsline {subsection}{\numberline {2.18}Polykonische Projektion}{7}
+\contentsline {subsection}{\numberline {2.19}Miller Zylinderprojektion}{7}
+\contentsline {subsection}{\numberline {2.20}Stereographische Gall Projektion}{7}
+\contentsline {subsection}{\numberline {2.21}Fl\IeC {\"a}chentreue Zylinderprojektion}{7}
+\contentsline {subsection}{\numberline {2.22}Lambert Winkeltreue Projektion}{7}
+\contentsline {subsection}{\numberline {2.23}Lambert Azimuthal Equal Area Projection}{8}
+\contentsline {subsection}{\numberline {2.24}Stereographic Projection}{8}
+\contentsline {subsection}{\numberline {2.25}Equidistant Conic Projection}{8}
+\contentsline {subsection}{\numberline {2.26}Albers Equal Area Projection}{8}
+\contentsline {subsection}{\numberline {2.27}Polar Stereographic Projection}{8}
+\contentsline {subsection}{\numberline {2.28}Polar Lambert Azimuthal Projection}{8}
+\contentsline {subsection}{\numberline {2.29}Polar Azimuthal Equidistant Projection}{8}
+\contentsline {subsection}{\numberline {2.30}van der Grinten Projection}{8}
+\contentsline {section}{\numberline {3}Basemap}{9}
+\contentsline {subsection}{\numberline {3.1}Einf\IeC {\"u}hrung}{9}
+\contentsline {subsection}{\numberline {3.2}Dependencies}{9}

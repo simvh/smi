@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.21)  12 NOV 2014 12:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.21)  24 NOV 2014 16:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -417,9 +417,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-)) [6] [7] (./basemap.tex (./basemap/Einfuhrung.tex
+) (./Kartendarstellungen/cassini.tex) (./Kartendarstellungen/mercator.tex)
+(./Kartendarstellungen/transmercator.tex) [6]
+(./Kartendarstellungen/polyconisch.tex) (./Kartendarstellungen/miller.tex)
+(./Kartendarstellungen/stereogall.tex) (./Kartendarstellungen/equareazyl.tex)
+(./Kartendarstellungen/lamwink.tex
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
-LaTeX Warning: Reference `Projektionen' on page 8 undefined on input line 3.
+ []
+
+[7])) [8] (./basemap.tex (./basemap/Einfuhrung.tex
+
+LaTeX Warning: Reference `Projektionen' on page 9 undefined on input line 3.
 
 ) (./basemap/depandencies.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
@@ -431,38 +440,36 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
 
-)) [8] (./Literatur.tex) [9] (./Nomenklatur.tex) [10] (./Glossar.tex) [11]
+)) [9] (./Literatur.tex) [10] (./Nomenklatur.tex) [11] (./Glossar.tex) [12]
 (./seminar.aux)
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 1623 strings out of 493117
- 19566 string characters out of 6135432
+ 1646 strings out of 493117
+ 20229 string characters out of 6135432
  82769 words of memory out of 5000000
- 5043 multiletter control sequences out of 15000+600000
+ 5042 multiletter control sequences out of 15000+600000
  9023 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,13n,23p,570b,201s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,13n,23p,570b,203s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/l
-ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/loc
-al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
-texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
-exlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on seminar.pdf (11 pages, 133080 bytes).
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
+ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
+al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on seminar.pdf (12 pages, 144755 bytes).
 PDF statistics:
- 84 PDF objects out of 1000 (max. 8388607)
- 59 compressed objects within 1 object stream
+ 91 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
