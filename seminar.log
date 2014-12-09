@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.21)  24 NOV 2014 16:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.21)  9 DEC 2014 12:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,8 +8,8 @@ LaTeX2e <2014/05/01>
 Babel <3.9k> and hyphenation patterns for 78 languages loaded.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -334,14 +334,14 @@ LaTeX Font Info:    ... okay on input line 10.
  [1
 
 {/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./semi
-nar.toc)
+nar.toc [2
+
+])
 \tf@toc=\write3
 \openout3 = `seminar.toc'.
 
- [2
-
-] (./kartendarstellungen.tex
-(./Kartendarstellungen/azimequipr.tex [3
+ [3] (./vorwort.tex) (./kartendarstellungen.tex
+(./Kartendarstellungen/azimequipr.tex [4
 
 ]) (./Kartendarstellungen/gnomonic.tex) (./Kartendarstellungen/orthographic.tex
 )
@@ -354,11 +354,11 @@ LaTeX Font Info:    Try loading font information for OMS+cmr on input line 5.
 (/usr/local/texlive/2014/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
 
 
-LaTeX Warning: Reference `backgroundbilder' on page 4 undefined on input line 6
+LaTeX Warning: Reference `backgroundbilder' on page 5 undefined on input line 6
 .
 
 
@@ -373,15 +373,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
 ) (./Kartendarstellungen/nearsidedperspective.tex)
 (./Kartendarstellungen/mollweide.tex) (./Kartendarstellungen/hammer.tex)
-(./Kartendarstellungen/robinson.tex) (./Kartendarstellungen/eckert4.tex
-Overfull \hbox (6.67392pt too wide) in paragraph at lines 3--1
-\OT1/cmr/m/n/10 Die Ro-bin-son Pro-jek-ti-on ist ei-ne glo-ba-le Pro-jek-ti-on.
- Die Er-de wird hier ann[]ahernd
- []
+(./Kartendarstellungen/robinson.tex [5
 
-[4
-
-]
+]) (./Kartendarstellungen/eckert4.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -391,13 +385,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-) (./Kartendarstellungen/mcbryde-thomas.tex)
+[6]) (./Kartendarstellungen/mcbryde-thomas.tex)
 (./Kartendarstellungen/sinusodial.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-[5]
+
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
@@ -408,8 +402,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
  []
 
 ) (./Kartendarstellungen/aquizylinder.tex
+Overfull \hbox (23.50104pt too wide) in paragraph at lines 3--5
+\OT1/cmr/m/n/10.95 die Er-de ein-fach in L[]angen- und Brei-ten-grad dar. Da-be
+i ent-steht ein gleichm[]a^^Yiges
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
+ []
+
+[7]
+Overfull \hbox (6.52121pt too wide) in paragraph at lines 10--11
+[]\OT1/cmr/m/n/10.95 Die Ver-zer-run-gen wir-ken so-wohl auf die Fl[]ache als a
+uch auf die Abst[]ande
  []
 
 
@@ -418,17 +424,43 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
  []
 
 ) (./Kartendarstellungen/cassini.tex) (./Kartendarstellungen/mercator.tex)
-(./Kartendarstellungen/transmercator.tex) [6]
-(./Kartendarstellungen/polyconisch.tex) (./Kartendarstellungen/miller.tex)
-(./Kartendarstellungen/stereogall.tex) (./Kartendarstellungen/equareazyl.tex)
-(./Kartendarstellungen/lamwink.tex
+(./Kartendarstellungen/transmercator.tex) (./Kartendarstellungen/schiefmerc.tex
+) (./Kartendarstellungen/polyconisch.tex) (./Kartendarstellungen/miller.tex
+[8]) (./Kartendarstellungen/stereogall.tex)
+(./Kartendarstellungen/equareazyl.tex) (./Kartendarstellungen/lamwink.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[7])) [8] (./basemap.tex (./basemap/Einfuhrung.tex
+) (./Kartendarstellungen/lamflach.tex) (./Kartendarstellungen/stereo.tex
+[9]) (./Kartendarstellungen/langkeg.tex) (./Kartendarstellungen/albert.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
-LaTeX Warning: Reference `Projektionen' on page 9 undefined on input line 3.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+[10]) (./Kartendarstellungen/polare.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+) (./Kartendarstellungen/vander.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+
+Overfull \hbox (70.3646pt too wide) in alignment at lines 5--20
+ [][][] []
+ []
+
+[11])) [12] (./basemap.tex (./basemap/Einfuhrung.tex
+
+LaTeX Warning: Reference `Projektionen' on page 13 undefined on input line 3.
 
 ) (./basemap/depandencies.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
@@ -440,36 +472,221 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
 
-)) [9] (./Literatur.tex) [10] (./Nomenklatur.tex) [11] (./Glossar.tex) [12]
-(./seminar.aux)
+) (./basemap/erstellen.tex
+Overfull \hbox (8.321pt too wide) in paragraph at lines 6--6
+\OT1/cmss/m/n/10.95 lat[]ts=None, lat[]1=None, lat[]2=None, lat[]0=None, lon[]0
+=None,
+ []
+
+
+Overfull \hbox (22.19716pt too wide) in paragraph at lines 6--6
+\OT1/cmss/m/n/10.95 lon[]1=None, lon[]2=None, o[]lon[]p=None, o[]lat[]p=None, k
+[]0=None,
+ []
+
+
+Overfull \hbox (9.40132pt too wide) in paragraph at lines 6--6
+\OT1/cmss/m/n/10.95 boun-dinglat=None, fix[]aspect=True, an-chor='C', ce-les-ti
+-al=False,
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 7--47
+
+ []
+
+[14]
+Overfull \hbox (2.33376pt too wide) in paragraph at lines 51--52
+[]\OT1/cmss/m/n/10.95 sinu, moll, ham-mer, nps-te-re, sps-te-re, nplaea, splaea
+, npaepd, spaepd,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 53--55
+
+ []
+
+
+Overfull \hbox (2.33376pt too wide) in paragraph at lines 56--57
+[]\OT1/cmss/m/n/10.95 sinu, moll, ham-mer, nps-te-re, sps-te-re, nplaea, splaea
+, npaepd, spaepd,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--69
+
+ []
+
+) (./basemap/zeichnenkarte.tex [15]
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+Overfull \hbox (0.13383pt too wide) in paragraph at lines 5--7
+\OT1/cmr/m/n/10.95 Die K[]ustenlinie zeich-net man mit der Funk-ti-on  \OT1/cms
+s/m/n/10.95 dra-w-coast-li-nes(linewidth=1.0,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
+
+ []
+
+[16]
+Overfull \hbox (19.10373pt too wide) in paragraph at lines 8--11
+\OT1/cmss/m/n/10.95 tia-li-a-sed=1, fa-ce-co-lor='none', ax=None, zor-der=None,
+ dra-w-bounds=False) \OT1/cmr/m/n/10.95 k[]onnen
+ []
+
+
+Overfull \hbox (31.3695pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10.95 f[]ullen. Mit der Funk-ti-on \OT1/cmss/m/n/10.95 dra-w-map-b
+oun-da-ry(color='k', li-ne-width=1.0, fill[]color=None,
+ []
+
+
+Overfull \hbox (0.18257pt too wide) in paragraph at lines 12--16
+\OT1/cmr/m/n/10.95 Man kann die Kar-te auch mit Hil-fe der Funk-ti-on \OT1/cmss
+/m/n/10.95 drawls-mask(land[]color='0.8',
+ []
+
+
+Overfull \hbox (20.23816pt too wide) in paragraph at lines 12--16
+\OT1/cmss/m/n/10.95 ocean[]color='w', ls-mask=None, ls-mask[]lons=None, ls-mask
+[]lats=None, la-kes=True,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+[17]
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+) (./basemap/bilderzeich.tex
+Overfull \hbox (12.51347pt too wide) in paragraph at lines 24--1
+\OT1/cmr/m/n/10.95 Um ei-ne Kar-te mit Re-li-ef zu zeich-nen kann man die Funk-
+tio-nen \OT1/cmss/m/n/10.95 eto-po(ax=None,
+ []
+
+
+Overfull \hbox (184.10141pt too wide) in paragraph at lines 24--1
+\OT1/cmr/m/n/10.95 be-nut-zen. Die Funk-ti-on \OT1/cmss/m/n/10.95 eto-po \OT1/c
+mr/m/n/10.95 l[]adt ein ein Re-li-ef-bild von der Sei-te \OT1/cmss/m/n/10.95 ht
+tp://www.ngdc.noaa.gov/mgg/global/global.html
+ []
+
+[18]) (./basemap/plotdata.tex
+Overfull \hbox (3.11584pt too wide) in paragraph at lines 2--1
+\OT1/cmr/m/n/10.95 Um ein Bild auf ei-ne Kar-te zeich-nen zu k[]onnen, muss das
+ Bild als \OT1/cmss/m/n/10.95 pyplot.image
+ []
+
+
+Overfull \hbox (44.82242pt too wide) in paragraph at lines 2--1
+\OT1/cmss/m/n/10.95 norm=None, aspect=None, in-ter-po-la-ti-on=None, al-pha=Non
+e, vmin=None, vmax=None,
+ []
+
+
+Overfull \hbox (20.85393pt too wide) in paragraph at lines 2--1
+\OT1/cmss/m/n/10.95 ori-gin=None, ex-tent=None, sha-pe=None, fil-ternorm=1, fil
+-ter-rad=4.0, im-lim=None,
+ []
+
+
+Overfull \hbox (2.87392pt too wide) in paragraph at lines 2--1
+\OT1/cmr/m/n/10.95 Mit der Funk-ti-on \OT1/cmss/m/n/10.95 war-pi-ma-ge(image='b
+luemarble', sca-le=None, **kwargs) \OT1/cmr/m/n/10.95 kann
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 5--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Overfull \hbox (26.63431pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10.95 Mit der Funk-ti-on \OT1/cmss/m/n/10.95 scat-ter(x, y, s=20, 
+c=u'b', mar-ker=u'o', cmap=None, norm=None,
+ []
+
+
+Overfull \hbox (21.12779pt too wide) in paragraph at lines 13--14
+\OT1/cmss/m/n/10.95 vmin=None, vmax=None, al-pha=None, li-ne-widths=None, verts
+=None, hold=None,
+ []
+
+) (./basemap/save.tex
+Overfull \hbox (29.76476pt too wide) in paragraph at lines 3--4
+\OT1/cmss/m/n/10.95 fa-ce-co-lor='w', ed-ge-co-lor='w', ori-en-ta-ti-on='portra
+it', pa-per-ty-pe=None, for-mat=None,
+ []
+
+[21])) [22] (./Literatur.tex) [23] (./Nomenklatur.tex) [24] (./Glossar.tex)
+[25] (./seminar.aux)
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 1646 strings out of 493117
- 20229 string characters out of 6135432
- 82769 words of memory out of 5000000
- 5042 multiletter control sequences out of 15000+600000
- 9023 words of font info for 33 fonts, out of 8000000 for 9000
+ 1707 strings out of 493117
+ 21356 string characters out of 6135432
+ 84831 words of memory out of 5000000
+ 5058 multiletter control sequences out of 15000+600000
+ 11724 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,13n,23p,570b,203s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 27i,13n,23p,1057b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
 usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></u
-sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
+sr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr
 /local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
 ocal/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/loc
 al/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local
-/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/te
-xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/tex
-live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on seminar.pdf (12 pages, 144755 bytes).
+/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
+xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/tex
+live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
+e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on seminar.pdf (25 pages, 208820 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 141 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

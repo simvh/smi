@@ -1,0 +1,86 @@
+\subsection{Erstellen einer Karte mit Basemap}
+\label{sec:erstellen}
+Eine Karte erzeugt man mit der Klasse \emph{Basemap}. Die Funktion ist wie folgt definiert:
+\begin{verse}
+\textsf{ Basemap(llcrnrlon=None, llcrnrlat=None, urcrnrlon=None, urcrnrlat=None, llcrnrx=None, llcrnry=None, urcrnrx=None, urcrnry=None, width=None, height=None, projection='cyl', resolution='c', area\_thresh=None, rsphere=6370997.0, ellps=None, lat\_ts=None, lat\_1=None, lat\_2=None, lat\_0=None, lon\_0=None, lon\_1=None, lon\_2=None, o\_lon\_p=None, o\_lat\_p=None, k\_0=None, no\_rot=False, suppress\_ticks=True, satellite\_height=35786000, boundinglat=None, fix\_aspect=True, anchor='C', celestial=False, round=False, epsg=None, ax=None)
+}\end{verse}
+Dabei kann der Parameter \textsf{projection} folgende Werte haben:\\
+\newline
+\begin{tabular}{r@{ }l}
+cea &	Cylindrical Equal Area\\
+mbtfpq &	McBryde-Thomas Flat-Polar Quartic\\
+aeqd &	Azimuthal Equidistant\\
+sinu &	Sinusoidal\\
+poly &	Polyconic\\
+omerc &	Oblique Mercator\\
+gnom &	Gnomonic\\
+moll &	Mollweide\\
+lcc &	Lambert Conformal\\
+tmerc &	Transverse Mercator\\
+nplaea &	North-Polar Lambert Azimuthal\\
+gall &	Gall Stereographic Cylindrical\\
+npaeqd &	North-Polar Azimuthal Equidistant\\
+mill &	Miller Cylindrical\\
+merc &	Mercator\\
+stere &	Stereographic\\
+eqdc &	Equidistant Conic\\
+rotpole &	Rotated Pole\\
+cyl &	Cylindrical Equidistant\\
+npstere &	North-Polar Stereographic\\
+spstere &	South-Polar Stereographic\\
+hammer &	Hammer\\
+geos &	Geostationary\\
+nsper &	Near-Sided Perspective\\
+eck4 &	Eckert IV\\
+aea &	Albers Equal Area\\
+kav7 &	Kavrayskiy VII\\
+spaeqd &	South-Polar Azimuthal Equidistant\\
+npaepd & North-Polar Azimuthal Equidistant\\
+ortho &	Orthographic\\
+cass &	Cassini-Soldner\\
+vandg& 	van der Grinten\\
+laea &	Lambert Azimuthal Equal Area\\
+splaea &	South-Polar Lambert Azimuthal\\
+nplaea & North-Polar Lambert Azimuthal\\
+robin &	Robinson
+\end{tabular}
+
+Die Parameter \textsf{width, height} geben die Breite, beziehungsweise die Höhe der Karte in Metern an,
+diese Parameter können bei den folgenden Projektionen nicht gesetzt werden.
+\begin{verse}
+\textsf{sinu, moll, hammer, npstere, spstere, nplaea, splaea, npaepd, spaepd, robin, eck4, kav7, mbtfpq, ortho, geos, nsper}
+\end{verse}
+Die Parameter \textsf{lon\_0 ,lat\_0 } nehmen die Koordinate des Kartenmittelpunkts in Grad, beziehungsweise den zentralen Längen- oder Breitengrad.\\
+Die Parameter \textsf{urcrnrlon, urcrnrlat, llcrnrlon, llcrnrlat, urcrnrx, urcrnry, llcrnrx, llcrnry} sind die Koordinaten der untere linke und oberen rechten Ecke der Karte, in Grad oder Meter mit (0,0) im Mittelpunkt der Karte. Eine der beiden Arten die Grenzen der Karte festzulegen muss angegeben werden außer bei den folgenden Projektionen:\\
+\begin{verse}
+\textsf{sinu, moll, hammer, npstere, spstere, nplaea, splaea, npaepd, spaepd, robin, eck4, kav7, mbtfpq}
+\end{verse}
+Da diese entweder immer den ganzen Globus zeigen oder die Grenzen automatisch ermittelt werden.
+Bei der \textsf{rotpole} Projektion werden mit lat/lon die Ecken des nicht rotierten Globus angegeben mit x/y die Ecken des rotierten Globus.
+Bei dem Parameter \textsf{resolution} kann man die Werte \textsf{c, l, i, h, f, None} haben, falls \textsf{None} angegeben wurde, werden keine Grenzdaten geladen weshalb Klassenmethoden Fehler werfen.\\
+ Der Parameter \textsf{area\_tresh} gibt an welche Mindest-Fläche Seen haben müssen um gezeichnet zu werden. Der Defaultwert ist 10000, 1000, 100, 10, 1 für die Resolution von c, l, i, h, f. Die Werte geben die Fläche in $km^2$.\\
+ Der Parameter \textsf{rsphere} bekommt den Radius, der der Projektion zugrunde liegenden Figur, in Metern.
+ Bei einer Kugel wird nur ein Wert angegeben, bei einem Ellipsoiden wird ein Array mit zwei Werten erwartet.\\
+ Über den Parameter \textsf{ellps} kann man die Form der Erde mit Hilfe spezieller Zeichenketten angeben.
+ Sollte \textsf{ellps} angegeben sei wird \textsf{rsphere} ignoriert.\\
+ Mit dem Parameter \textsf{supress\_ticks} kann man steuern ob die Achsen automatisch beschriftet und aufgeteilt werden sollen.\\
+  Der Parameter \textsf{fix\_aspect} passt die Seitenverhältnisse vom Plot den Seitenverhältnissen der Karte an.\\
+  Der Parameter \textsf{anchor} gibt an wo die Karte im Gitter liegt, gültige Werte für diesen Parameter sind:\\
+  \begin{verse}
+  \textsf{C, SW, S, SE, E, NE, N, NW, W}
+  \end{verse}
+  Mit dem Parameter \textsf{celestial} kann man einstellen das eine astronomische Konvention bezüglich der Längengrade benutzt wird. Was bedeutet, dass negative Längengrade östlich des Nullmeridian liegen.
+  Diese Einstellung impliziert das die Resolution auf \textsf{None} gesetzt ist.\\
+  Mit dem \textsf{ax} Parameter kann man eine eigene Achseninstanz übergeben, wenn nichts übergeben wird, versucht \textsf{basemap} sich die aktuelle Achseninstanz mit Hilfe von \textsf{pyplot.gca()} zu holen. Falls man nicht \textsf{pyplot} importiert kann man auch jeder Klassenmethode die zeichnet eine Achseninstanz übergeben auf der gezeichnet wird. Wenn man allerdings hier die Achseninstanz übergibt werden alle Methoden auf dieser Achseninstanz ausgeführt.\\
+  Mit dem \textsf{lat\_ts} Parameter wird der Breitengrad angegeben, der Maßstabs getreu wiedergegeben wird. Dieser Parameter ist optional und nur für die Projektionen \textsf{stere, cea, merc} von Belang.\\
+  Mit den Parametern \textsf{lat\_1, lat\_2} werden die Breitengrade der 1. und 2. Standartparallele angegeben. Diese sind nur für die Projektionen \textsf{lcc, aea, eqdc} interessant.\\
+  Mit den Parametern \textsf{lon\_1, lon\_2} werden die Breitengerade für die Punkte auf der Zentralen Linie der \textsf{omerc} Projektion angegeben.\\
+  Der Parameter \textsf{k\_0} gibt den Skalierungsfaktor am Ursprung an, welcher nur von den Projektionen \textsf{tmerc, omerc, stere, lcc} genutzt wird.\\
+  Mit dem Parameter \textsf{no\_rot} kann man bei der \textsf{omerc} Projektion einstellen ob die Koordinaten rotiert werden oder nicht.
+  Die Parameter \textsf{o\_lat\_p, o\_lon\_p} geben die Position des rotierten Pols in Grad an, dies wird nur von der Projektion \textsf{rotpole} verarbeitet.\\
+  Der Parameter \textsf{boundinglat} gibt an bis zu welchem Breitengrad die polare Karte reicht.\\
+  Mit dem Parameter \textsf{round} kann man einstellen ob an dem Grenzbreitengrad bei polaren Karten abgeschnitten werden soll oder nicht. Dadurch kann man einstellen ob die Karte rund oder eckig ist.\\
+  Mit dem Parameter \textsf{satellite\_height} gibt man die Höhe des Satelliten über dem Äquator an. 
+  Dies ist nur für die Projektionen \textsf{geos, nsper} interessant.\\
+  Mit dieser Funktion kann man eine Karteninstanz erstellen, allerdings ist noch nichts gezeichnet worden.
+  Dafür müssen noch weitere Funktionen aufgerufen werden. Welche ich im nächsten Unterkapitel beschreibe.
