@@ -1,48 +1,49 @@
 \select@language {ngerman}
-\contentsline {section}{\numberline {1}Vorwort}{4}
-\contentsline {section}{\numberline {2}Kartendarstellungen}{4}
-\contentsline {subsection}{\numberline {2.1}Azimuthale \IeC {\"a}quidistante Projektion}{4}
-\contentsline {subsection}{\numberline {2.2}Gnomonische Projektion}{5}
-\contentsline {subsection}{\numberline {2.3}Orthographische Projektion}{5}
-\contentsline {subsection}{\numberline {2.4}Geostationary Projection}{5}
-\contentsline {subsection}{\numberline {2.5}Near-Sided perspektivische Projektion}{5}
-\contentsline {subsection}{\numberline {2.6}Mollweide Projection}{5}
-\contentsline {subsection}{\numberline {2.7}Hammer Projektion}{6}
-\contentsline {subsection}{\numberline {2.8}Robinson Projektion}{6}
-\contentsline {subsection}{\numberline {2.9}Eckert 4 Projektion}{6}
-\contentsline {subsection}{\numberline {2.10}Kavrayskiy 7 Projektion}{6}
-\contentsline {subsection}{\numberline {2.11}McBryde-Thomas Projektion}{7}
-\contentsline {subsection}{\numberline {2.12}Sinusoidale Projektion}{7}
-\contentsline {subsection}{\numberline {2.13}\IeC {\"A}quidistante Zylinder Projektion}{7}
-\contentsline {subsection}{\numberline {2.14}Cassini Projektion}{8}
-\contentsline {subsection}{\numberline {2.15}Mercatorprojektion}{8}
-\contentsline {subsection}{\numberline {2.16}Transversale Mercatorprojektion}{8}
-\contentsline {subsection}{\numberline {2.17}Schiefe Mercatorprojektion}{8}
-\contentsline {subsection}{\numberline {2.18}Polykonische Projektion}{8}
-\contentsline {subsection}{\numberline {2.19}Miller Zylinderprojektion}{9}
-\contentsline {subsection}{\numberline {2.20}Stereographische Gall Projektion}{9}
-\contentsline {subsection}{\numberline {2.21}Fl\IeC {\"a}chentreue Zylinderprojektion}{9}
-\contentsline {subsection}{\numberline {2.22}Lambert Winkeltreue Projektion}{9}
-\contentsline {subsection}{\numberline {2.23}Azimuthale Fl\IeC {\"a}chentreue Lambert-Projektion}{10}
-\contentsline {subsection}{\numberline {2.24}Stereographische Projektion}{10}
-\contentsline {subsection}{\numberline {2.25}L\IeC {\"a}ngentreue Kegelprojektion}{10}
-\contentsline {subsection}{\numberline {2.26}Fl\IeC {\"a}chentreue Albert-Projektion}{10}
-\contentsline {subsection}{\numberline {2.27}Polare stereographische Projektion}{11}
-\contentsline {subsection}{\numberline {2.28}Polare azimutale Lambertprojektion}{11}
-\contentsline {subsection}{\numberline {2.29}Polare azimuthale \IeC {\"a}quidistante Projektion}{11}
-\contentsline {subsection}{\numberline {2.30}Van der Grinten Projektion}{11}
-\contentsline {section}{\numberline {3}Basemap}{13}
-\contentsline {subsection}{\numberline {3.1}Einf\IeC {\"u}hrung}{13}
-\contentsline {subsection}{\numberline {3.2}Abh\IeC {\"a}ngigkeiten von basemap}{13}
-\contentsline {subsection}{\numberline {3.3}Erstellen einer Karte mit Basemap}{13}
-\contentsline {subsection}{\numberline {3.4}Zeichnen der Karte}{16}
-\contentsline {subsection}{\numberline {3.5}Bild auf eine Karte zeichnen}{19}
-\contentsline {subsection}{\numberline {3.6}Daten plotten}{20}
-\contentsline {subsubsection}{\numberline {3.6.1}Isobaren plotten}{20}
-\contentsline {subsubsection}{\numberline {3.6.2}Windmarken plotten}{20}
-\contentsline {subsubsection}{\numberline {3.6.3}Windvektoren plotten}{20}
-\contentsline {subsubsection}{\numberline {3.6.4}gekr\IeC {\"u}mmte Strecken plotten}{21}
-\contentsline {subsubsection}{\numberline {3.6.5}Viele Punkte plotten}{21}
-\contentsline {subsubsection}{\numberline {3.6.6}Linienz\IeC {\"u}ge zeichnen}{21}
-\contentsline {subsection}{\numberline {3.7}Karte speichern}{21}
-\contentsline {subsection}{\numberline {3.8}Karte anzeigen}{22}
+\contentsline {section}{\numberline {1}Eidesstattliche Erkl\IeC {\"a}rung}{2}
+\contentsline {section}{\numberline {2}Vorwort}{5}
+\contentsline {section}{\numberline {3}Kartendarstellungen}{5}
+\contentsline {subsection}{\numberline {3.1}Azimuthale \IeC {\"a}quidistante Projektion}{5}
+\contentsline {subsection}{\numberline {3.2}Gnomonische Projektion}{6}
+\contentsline {subsection}{\numberline {3.3}Orthographische Projektion}{7}
+\contentsline {subsection}{\numberline {3.4}Geostation\IeC {\"a}re Projektion}{8}
+\contentsline {subsection}{\numberline {3.5}Nah-seitige perspektivische Projektion}{9}
+\contentsline {subsection}{\numberline {3.6}Mollweide Projektion}{10}
+\contentsline {subsection}{\numberline {3.7}Hammer Projektion}{11}
+\contentsline {subsection}{\numberline {3.8}Robinson Projektion}{12}
+\contentsline {subsection}{\numberline {3.9}Eckert 4 Projektion}{13}
+\contentsline {subsection}{\numberline {3.10}Kavrayskiy 7 Projektion}{14}
+\contentsline {subsection}{\numberline {3.11}McBryde-Thomas Projektion}{15}
+\contentsline {subsection}{\numberline {3.12}Sinus-f\IeC {\"o}rmige Projektion}{16}
+\contentsline {subsection}{\numberline {3.13}\IeC {\"A}quidistante Zylinder Projektion}{17}
+\contentsline {subsection}{\numberline {3.14}Cassini Projektion}{18}
+\contentsline {subsection}{\numberline {3.15}Mercatorprojektion}{19}
+\contentsline {subsection}{\numberline {3.16}Transversale Mercatorprojektion}{20}
+\contentsline {subsection}{\numberline {3.17}Schiefe Mercatorprojektion}{21}
+\contentsline {subsection}{\numberline {3.18}Polykonische Projektion}{22}
+\contentsline {subsection}{\numberline {3.19}Miller Zylinderprojektion}{23}
+\contentsline {subsection}{\numberline {3.20}Stereographische Gall Projektion}{24}
+\contentsline {subsection}{\numberline {3.21}Fl\IeC {\"a}chentreue Zylinderprojektion}{25}
+\contentsline {subsection}{\numberline {3.22} Winkeltreue Lambert Projektion}{26}
+\contentsline {subsection}{\numberline {3.23}Azimuthale Fl\IeC {\"a}chentreue Lambert-Projektion}{27}
+\contentsline {subsection}{\numberline {3.24}Stereografische Projektion}{28}
+\contentsline {subsection}{\numberline {3.25}L\IeC {\"a}ngentreue Kegelprojektion}{29}
+\contentsline {subsection}{\numberline {3.26}Fl\IeC {\"a}chentreue Albert-Projektion}{30}
+\contentsline {subsection}{\numberline {3.27}Polare stereographische Projektion}{31}
+\contentsline {subsection}{\numberline {3.28}Polare azimutale Lambertprojektion}{32}
+\contentsline {subsection}{\numberline {3.29}Polare azimuthale \IeC {\"a}quidistante Projektion}{34}
+\contentsline {subsection}{\numberline {3.30}Van der Grinten Projektion}{35}
+\contentsline {section}{\numberline {4}Basemap}{37}
+\contentsline {subsection}{\numberline {4.1}Einf\IeC {\"u}hrung}{37}
+\contentsline {subsection}{\numberline {4.2}Abh\IeC {\"a}ngigkeiten von basemap}{37}
+\contentsline {subsection}{\numberline {4.3}Erstellen einer Karte mit Basemap}{37}
+\contentsline {subsection}{\numberline {4.4}Zeichnen der Karte}{40}
+\contentsline {subsection}{\numberline {4.5}Bild auf eine Karte zeichnen}{43}
+\contentsline {subsection}{\numberline {4.6}Daten plotten}{44}
+\contentsline {subsubsection}{\numberline {4.6.1}Isobaren plotten}{44}
+\contentsline {subsubsection}{\numberline {4.6.2}Windmarken plotten}{44}
+\contentsline {subsubsection}{\numberline {4.6.3}Windvektoren plotten}{44}
+\contentsline {subsubsection}{\numberline {4.6.4}gekr\IeC {\"u}mmte Strecken plotten}{45}
+\contentsline {subsubsection}{\numberline {4.6.5}Viele Punkte plotten}{45}
+\contentsline {subsubsection}{\numberline {4.6.6}Linienz\IeC {\"u}ge zeichnen}{45}
+\contentsline {subsection}{\numberline {4.7}Karte speichern}{45}
+\contentsline {subsection}{\numberline {4.8}Karte anzeigen}{46}

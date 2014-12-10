@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.21)  9 DEC 2014 12:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2014.10.21)  10 DEC 2014 15:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -316,35 +316,194 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count100
+))
+\Gin@req@height=\dimen113
+\Gin@req@width=\dimen114
+)
 (./seminar.aux)
 \openout1 = `seminar.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
- [1
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
-{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./semi
-nar.toc [2
+(/usr/local/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count101
+\scratchdimen=\dimen115
+\scratchbox=\box28
+\nofMPsegments=\count102
+\nofMParguments=\count103
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count104
+\MPscratchDim=\dimen116
+\MPnumerator=\count105
+\makeMPintoPDFobject=\count106
+\everyMPtoPDFconversion=\toks23
+) (/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/local/texlive/2014/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/local/texlive/2014/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/local/texlive/2014/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+[1
+
+{/usr/local/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 15--19
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+[2
+
+] (./seminar.toc [3
 
 ])
 \tf@toc=\write3
 \openout3 = `seminar.toc'.
 
- [3] (./vorwort.tex) (./kartendarstellungen.tex
-(./Kartendarstellungen/azimequipr.tex [4
+ [4] (./vorwort.tex) (./kartendarstellungen.tex
+(./Kartendarstellungen/azimequipr.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--1
 
-]) (./Kartendarstellungen/gnomonic.tex) (./Kartendarstellungen/orthographic.tex
-)
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/aziequi.png, id=21, 578.16p
+t x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/aziequi.png Graphic fi
+le (type png)
+
+<use /Users/student/seminar/Kartendarstellungen/seminar/aziequi.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/azi
+equi.png used on input line 10.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [5
+
+ </Users/student/seminar/Kartendarstellungen/seminar/aziequi.png>])
+(./Kartendarstellungen/gnomonic.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/gnom.png, id=27, 578.16pt x
+ 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/gnom.png Graphic file 
+(type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/gnom.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/gno
+m.png used on input line 9.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[6
+
+ </Users/student/seminar/Kartendarstellungen/seminar/gnom.png>])
+(./Kartendarstellungen/orthographic.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/orthograph.png, id=32, 578.
+16pt x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/orthograph.png Graphic
+ file (type png)
+
+<use /Users/student/seminar/Kartendarstellungen/seminar/orthograph.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/ort
+hograph.png used on input line 9.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[7 </Users/student/seminar/Kartendarstellungen/seminar/orthograph.png>])
 (./Kartendarstellungen/geostationary.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
@@ -357,11 +516,6 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 5.
 
-
-LaTeX Warning: Reference `backgroundbilder' on page 5 undefined on input line 6
-.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 9--9
 
  []
@@ -371,21 +525,139 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 
  []
 
-) (./Kartendarstellungen/nearsidedperspective.tex)
-(./Kartendarstellungen/mollweide.tex) (./Kartendarstellungen/hammer.tex)
-(./Kartendarstellungen/robinson.tex [5
 
-]) (./Kartendarstellungen/eckert4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/geos.png, id=38, 578.16pt x
+ 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/geos.png Graphic file 
+(type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/geos.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/geo
+s.png used on input line 16.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[8 </Users/student/seminar/Kartendarstellungen/seminar/geos.png>])
+(./Kartendarstellungen/nearsidedperspective.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-) (./Kartendarstellungen/kavrayskiy7.tex
+
+</Users/student/seminar/Kartendarstellungen/seminar/nearsid.png, id=44, 578.16p
+t x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/nearsid.png Graphic fi
+le (type png)
+
+<use /Users/student/seminar/Kartendarstellungen/seminar/nearsid.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/nea
+rsid.png used on input line 8.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [9 </Users/student/seminar/Kartendarstellungen/seminar/nearsid.png>])
+(./Kartendarstellungen/mollweide.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/moll.png, id=49, 578.16pt x
+ 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/moll.png Graphic file 
+(type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/moll.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/mol
+l.png used on input line 9.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[10 </Users/student/seminar/Kartendarstellungen/seminar/moll.png>])
+(./Kartendarstellungen/hammer.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
 
-[6]) (./Kartendarstellungen/mcbryde-thomas.tex)
+
+</Users/student/seminar/Kartendarstellungen/seminar/hammer.png, id=54, 578.16pt
+ x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/hammer.png Graphic fil
+e (type png)
+
+<use /Users/student/seminar/Kartendarstellungen/seminar/hammer.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/ham
+mer.png used on input line 8.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [11 </Users/student/seminar/Kartendarstellungen/seminar/hammer.png>])
+(./Kartendarstellungen/robinson.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/robin.png, id=59, 578.16pt 
+x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/robin.png Graphic file
+ (type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/robin.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/rob
+in.png used on input line 7.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[12 </Users/student/seminar/Kartendarstellungen/seminar/robin.png>])
+(./Kartendarstellungen/eckert4.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/eck4.png, id=64, 578.16pt x
+ 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/eck4.png Graphic file 
+(type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/eck4.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/eck
+4.png used on input line 14.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[13 </Users/student/seminar/Kartendarstellungen/seminar/eck4.png>])
+(./Kartendarstellungen/kavrayskiy7.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/kav7.png, id=73, 578.16pt x
+ 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/kav7.png Graphic file 
+(type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/kav7.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/kav
+7.png used on input line 12.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[14 </Users/student/seminar/Kartendarstellungen/seminar/kav7.png>])
+(./Kartendarstellungen/mcbryde-thomas.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/mbtfpq.png, id=78, 578.16pt
+ x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/mbtfpq.png Graphic fil
+e (type png)
+
+<use /Users/student/seminar/Kartendarstellungen/seminar/mbtfpq.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/mbt
+fpq.png used on input line 7.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [15 </Users/student/seminar/Kartendarstellungen/seminar/mbtfpq.png>])
 (./Kartendarstellungen/sinusodial.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
@@ -401,7 +673,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 
  []
 
-) (./Kartendarstellungen/aquizylinder.tex
+
+</Users/student/seminar/Kartendarstellungen/seminar/sinu.png, id=83, 578.16pt x
+ 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/sinu.png Graphic file 
+(type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/sinu.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/sin
+u.png used on input line 20.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[16 </Users/student/seminar/Kartendarstellungen/seminar/sinu.png>])
+(./Kartendarstellungen/aquizylinder.tex
 Overfull \hbox (23.50104pt too wide) in paragraph at lines 3--5
 \OT1/cmr/m/n/10.95 die Er-de ein-fach in L[]angen- und Brei-ten-grad dar. Da-be
 i ent-steht ein gleichm[]a^^Yiges
@@ -412,7 +695,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 
  []
 
-[7]
+
 Overfull \hbox (6.52121pt too wide) in paragraph at lines 10--11
 []\OT1/cmr/m/n/10.95 Die Ver-zer-run-gen wir-ken so-wohl auf die Fl[]ache als a
 uch auf die Abst[]ande
@@ -423,17 +706,210 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-) (./Kartendarstellungen/cassini.tex) (./Kartendarstellungen/mercator.tex)
-(./Kartendarstellungen/transmercator.tex) (./Kartendarstellungen/schiefmerc.tex
-) (./Kartendarstellungen/polyconisch.tex) (./Kartendarstellungen/miller.tex
-[8]) (./Kartendarstellungen/stereogall.tex)
-(./Kartendarstellungen/equareazyl.tex) (./Kartendarstellungen/lamwink.tex
+
+</Users/student/seminar/Kartendarstellungen/seminar/cyl.png, id=89, 578.16pt x 
+433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/cyl.png Graphic file (
+type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/cyl.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/cyl
+.png used on input line 21.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[17 </Users/student/seminar/Kartendarstellungen/seminar/cyl.png>])
+(./Kartendarstellungen/cassini.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/cass.png, id=94, 578.16pt x
+ 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/cass.png Graphic file 
+(type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/cass.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/cas
+s.png used on input line 8.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[18 </Users/student/seminar/Kartendarstellungen/seminar/cass.png>])
+(./Kartendarstellungen/mercator.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--7
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/merc.png, id=99, 578.16pt x
+ 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/merc.png Graphic file 
+(type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/merc.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/mer
+c.png used on input line 10.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[19 </Users/student/seminar/Kartendarstellungen/seminar/merc.png>])
+(./Kartendarstellungen/transmercator.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/tmerc.png, id=105, 578.16pt
+ x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/tmerc.png Graphic file
+ (type png)
+
+<use /Users/student/seminar/Kartendarstellungen/seminar/tmerc.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/tme
+rc.png used on input line 7.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [20 </Users/student/seminar/Kartendarstellungen/seminar/tmerc.png>])
+(./Kartendarstellungen/schiefmerc.tex
+</Users/student/seminar/Kartendarstellungen/seminar/omerc.png, id=110, 578.16pt
+ x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/omerc.png Graphic file
+ (type png)
+
+<use /Users/student/seminar/Kartendarstellungen/seminar/omerc.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/ome
+rc.png used on input line 6.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [21 </Users/student/seminar/Kartendarstellungen/seminar/omerc.png>])
+(./Kartendarstellungen/polyconisch.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/poly.png, id=115, 578.16pt 
+x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/poly.png Graphic file 
+(type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/poly.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/pol
+y.png used on input line 7.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[22 </Users/student/seminar/Kartendarstellungen/seminar/poly.png>])
+(./Kartendarstellungen/miller.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/mill.png, id=120, 578.16pt 
+x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/mill.png Graphic file 
+(type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/mill.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/mil
+l.png used on input line 8.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[23 </Users/student/seminar/Kartendarstellungen/seminar/mill.png>])
+(./Kartendarstellungen/stereogall.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/gall.png, id=125, 578.16pt 
+x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/gall.png Graphic file 
+(type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/gall.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/gal
+l.png used on input line 7.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[24 </Users/student/seminar/Kartendarstellungen/seminar/gall.png>])
+(./Kartendarstellungen/equareazyl.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/cea.png, id=130, 578.16pt x
+ 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/cea.png Graphic file (
+type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/cea.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/cea
+.png used on input line 7.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[25 </Users/student/seminar/Kartendarstellungen/seminar/cea.png>])
+(./Kartendarstellungen/lamwink.tex
 Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-) (./Kartendarstellungen/lamflach.tex) (./Kartendarstellungen/stereo.tex
-[9]) (./Kartendarstellungen/langkeg.tex) (./Kartendarstellungen/albert.tex
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/lcc.png, id=136, 578.16pt x
+ 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/lcc.png Graphic file (
+type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/lcc.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/lcc
+.png used on input line 17.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[26 </Users/student/seminar/Kartendarstellungen/seminar/lcc.png>])
+(./Kartendarstellungen/lamflach.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--7
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/laea.png, id=142, 578.16pt 
+x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/laea.png Graphic file 
+(type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/laea.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/lae
+a.png used on input line 10.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[27 </Users/student/seminar/Kartendarstellungen/seminar/laea.png>])
+(./Kartendarstellungen/stereo.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--6
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/stere.png, id=147, 578.16pt
+ x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/stere.png Graphic file
+ (type png)
+
+<use /Users/student/seminar/Kartendarstellungen/seminar/stere.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/ste
+re.png used on input line 9.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [28 </Users/student/seminar/Kartendarstellungen/seminar/stere.png>])
+(./Kartendarstellungen/langkeg.tex
+Underfull \hbox (badness 10000) in paragraph at lines 3--5
+
+ []
+
+
+</Users/student/seminar/Kartendarstellungen/seminar/eqdc.png, id=152, 578.16pt 
+x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/eqdc.png Graphic file 
+(type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/eqdc.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/eqd
+c.png used on input line 8.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+[29 </Users/student/seminar/Kartendarstellungen/seminar/eqdc.png>])
+(./Kartendarstellungen/albert.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -443,12 +919,81 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-[10]) (./Kartendarstellungen/polare.tex
-Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
- []
+</Users/student/seminar/Kartendarstellungen/seminar/aea.png, id=157, 578.16pt x
+ 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/aea.png Graphic file (
+type png)
+ <use /Users/student/seminar/Kartendarstellungen/seminar/aea.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/aea
+.png used on input line 20.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
 
-) (./Kartendarstellungen/vander.tex
+[30 </Users/student/seminar/Kartendarstellungen/seminar/aea.png>])
+(./Kartendarstellungen/polare.tex
+</Users/student/seminar/Kartendarstellungen/seminar/npstere.png, id=162, 578.16
+pt x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/npstere.png Graphic fi
+le (type png)
+
+<use /Users/student/seminar/Kartendarstellungen/seminar/npstere.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/nps
+tere.png used on input line 6.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+</Users/student/seminar/Kartendarstellungen/seminar/spstere.png, id=163, 578.16
+pt x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/spstere.png Graphic fi
+le (type png)
+
+<use /Users/student/seminar/Kartendarstellungen/seminar/spstere.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/sps
+tere.png used on input line 11.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [31 </Users/student/seminar/Kartendarstellungen/seminar/npstere.png>]
+</Users/student/seminar/Kartendarstellungen/seminar/nplaea.png, id=169, 578.16p
+t x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/nplaea.png Graphic fil
+e (type png)
+
+<use /Users/student/seminar/Kartendarstellungen/seminar/nplaea.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/npl
+aea.png used on input line 19.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+</Users/student/seminar/Kartendarstellungen/seminar/splaea.png, id=170, 578.16p
+t x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/splaea.png Graphic fil
+e (type png)
+
+<use /Users/student/seminar/Kartendarstellungen/seminar/splaea.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/spl
+aea.png used on input line 24.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [32 </Users/student/seminar/Kartendarstellungen/seminar/spstere.png>] [33 </Us
+ers/student/seminar/Kartendarstellungen/seminar/nplaea.png> </Users/student/sem
+inar/Kartendarstellungen/seminar/splaea.png>]
+</Users/student/seminar/Kartendarstellungen/seminar/npaeqd.png, id=180, 578.16p
+t x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/npaeqd.png Graphic fil
+e (type png)
+
+<use /Users/student/seminar/Kartendarstellungen/seminar/npaeqd.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/npa
+eqd.png used on input line 32.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+
+</Users/student/seminar/Kartendarstellungen/seminar/spaeqd.png, id=181, 578.16p
+t x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/spaeqd.png Graphic fil
+e (type png)
+
+<use /Users/student/seminar/Kartendarstellungen/seminar/spaeqd.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/spa
+eqd.png used on input line 37.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [34 </Users/student/seminar/Kartendarstellungen/seminar/npaeqd.png>])
+(./Kartendarstellungen/vander.tex
 Underfull \hbox (badness 10000) in paragraph at lines 3--5
 
  []
@@ -458,9 +1003,21 @@ Overfull \hbox (70.3646pt too wide) in alignment at lines 5--20
  [][][] []
  []
 
-[11])) [12] (./basemap.tex (./basemap/Einfuhrung.tex
+[35 </Users/student/seminar/Kartendarstellungen/seminar/spaeqd.png>]
+</Users/student/seminar/Kartendarstellungen/seminar/vandg.png, id=190, 578.16pt
+ x 433.62pt>
+File: /Users/student/seminar/Kartendarstellungen/seminar/vandg.png Graphic file
+ (type png)
 
-LaTeX Warning: Reference `Projektionen' on page 13 undefined on input line 3.
+<use /Users/student/seminar/Kartendarstellungen/seminar/vandg.png>
+Package pdftex.def Info: /Users/student/seminar/Kartendarstellungen/seminar/van
+dg.png used on input line 24.
+(pdftex.def)             Requested size: 289.07928pt x 216.80946pt.
+ [36 </Users/student/seminar/Kartendarstellungen/seminar/vandg.png>])) (./basem
+ap.tex
+(./basemap/Einfuhrung.tex
+
+LaTeX Warning: Reference `Projektionen' on page 37 undefined on input line 3.
 
 ) (./basemap/depandencies.tex
 Underfull \hbox (badness 10000) in paragraph at lines 2--4
@@ -490,12 +1047,7 @@ Overfull \hbox (9.40132pt too wide) in paragraph at lines 6--6
 -al=False,
  []
 
-[13]
-Underfull \hbox (badness 10000) in paragraph at lines 7--47
-
- []
-
-[14]
+[37] [38]
 Overfull \hbox (2.33376pt too wide) in paragraph at lines 51--52
 []\OT1/cmss/m/n/10.95 sinu, moll, ham-mer, nps-te-re, sps-te-re, nplaea, splaea
 , npaepd, spaepd,
@@ -517,7 +1069,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--69
 
  []
 
-) (./basemap/zeichnenkarte.tex [15]
+) (./basemap/zeichnenkarte.tex [39]
 Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
@@ -533,7 +1085,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
-[16]
+[40]
 Overfull \hbox (19.10373pt too wide) in paragraph at lines 8--11
 \OT1/cmss/m/n/10.95 tia-li-a-sed=1, fa-ce-co-lor='none', ax=None, zor-der=None,
  dra-w-bounds=False) \OT1/cmr/m/n/10.95 k[]onnen
@@ -567,7 +1119,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--21
 
  []
 
-[17]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
@@ -585,7 +1137,7 @@ mr/m/n/10.95 l[]adt ein ein Re-li-ef-bild von der Sei-te \OT1/cmss/m/n/10.95 ht
 tp://www.ngdc.noaa.gov/mgg/global/global.html
  []
 
-[18]) (./basemap/plotdata.tex
+[42]) (./basemap/plotdata.tex
 Overfull \hbox (3.11584pt too wide) in paragraph at lines 2--1
 \OT1/cmr/m/n/10.95 Um ein Bild auf ei-ne Kar-te zeich-nen zu k[]onnen, muss das
  Bild als \OT1/cmss/m/n/10.95 pyplot.image
@@ -614,7 +1166,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 3--4
 
  []
 
-[19]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
@@ -629,7 +1181,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-[20]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
  []
@@ -652,8 +1204,19 @@ Overfull \hbox (29.76476pt too wide) in paragraph at lines 3--4
 it', pa-per-ty-pe=None, for-mat=None,
  []
 
-[21])) [22] (./Literatur.tex) [23] (./Nomenklatur.tex) [24] (./Glossar.tex)
-[25] (./seminar.aux)
+[45])) [46] (./Literatur.tex)
+Overfull \hbox (111.4711pt too wide) in paragraph at lines 3--31
+\OT1/cmr/m/n/10.95 http://resources.arcgis.com-/en/help/main-/10.1-/in-dex.html
+#/-List[]of[]supported[]map[]projections/-
+ []
+
+
+Overfull \hbox (0.33461pt too wide) in paragraph at lines 3--31
+\OT1/cmr/m/n/10.95 http://en.wikipedia.org/wiki/Category:Cartographic[]projecti
+ons Wi-ki-pe-dia
+ []
+
+[47] (./Nomenklatur.tex) [48] (./Glossar.tex) [49] (./seminar.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -662,13 +1225,13 @@ LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 1707 strings out of 493117
- 21356 string characters out of 6135432
- 84831 words of memory out of 5000000
- 5058 multiletter control sequences out of 15000+600000
+ 3123 strings out of 493117
+ 49099 string characters out of 6135432
+ 111054 words of memory out of 5000000
+ 6377 multiletter control sequences out of 15000+600000
  11724 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 27i,13n,23p,1057b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,13n,23p,1057b,233s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
@@ -683,10 +1246,10 @@ xlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/local/tex
 live/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
 ive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
 e/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on seminar.pdf (25 pages, 208820 bytes).
+Output written on seminar.pdf (49 pages, 2796786 bytes).
 PDF statistics:
- 141 PDF objects out of 1000 (max. 8388607)
- 99 compressed objects within 1 object stream
+ 287 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 166 words of extra memory for PDF output out of 10000 (max. 10000000)
 
