@@ -1,0 +1,45 @@
+\section{Kartenprojektionen}
+In diesem Kapitel werde ich darauf eingehen was Kartenprojektionen sind, wofür man sie braucht und wie sie sich grundlegend unter scheiden.
+
+\subsection{Was sind Kartenprojektionen}
+Kartenprojektionen sind 2D Darstellungen der Erde oder spezieller Regionen der Erde. Dabei ist wichtig das man die Landflächen von den Gewässern unterscheiden kann. Die Projektionen werden gebraucht wenn man geographische Daten darstellen will.
+\subsection{Wofür braucht man Kartenprojektionen}
+Kartenprojektionen braucht man wenn man ein 3D Objekt wie die Erde zweidimensional darstellen muss. Die Projektionen ermöglichen es die Punkte im Raum auf Punkte in der Ebene zu projizieren. Dabei gibt es verschiedene Varianten die unterschiedliche Vor- und Nachteile haben. Um geografische Daten wie zum Beispiel der Niederschlag auf ein Satellitenbild zu malen braucht man die entsprechende Projektion. Damit man die geografischen Koordinaten in die kartesischen Koordinaten des Bildes umrechnen kann. 
+\subsection{Wie unterscheiden sich die Projektionen}
+Da die Projektionen die Dimension der Darstellung reduzieren, kann man nicht alles verzerrungsfrei darstellen. Die Projektionen unterscheiden sich einmal darin welche Verzerrung sie minimieren und zum anderen wie sie die Projektion erreichen. Es gibt zum einen flächentreue Projektionen. Diese stellen sicher das die Flächen nicht verzerrt werden, dies bedeutet nicht das die Form der Gebiete erhalten bleibt. Andererseits gibt es winkeltreue Projektionen diese stellen sicher das die Winkel zwischen zwei Punkten erhalten bleiben. Dies wiederum bedeutet nicht das die Entfernungen zwischen zwei Punkten gleich bleibt wen man diese parallel verschiebt noch das die Flächen gleich bleiben. Dann gibt es noch längentreue Projektionen diese stellen sicher das Entfernungen erhalten bleiben wenn man diese verschiebt. Zuletzt gibt es noch Projektionen die einen Kompromiss aus den oben genannten Eigenschaften bilden.\\
+Außerdem kann man Projektionen dadurch unterscheiden wie sie projizieren. Es gibt zum einen Zylinderprojektionen diese projizieren im Grunde indem sie einen Zylinder um die Erde legen und dann die Punkte linear übertragen, der Zylindermantel ist dann in der Regel die Karte. Des weiteren gibt es Kegelprojektionen diese bauen einen Kegel auf. Dieser wird in der Regel so aufgebaut das er tangential an der Erde aufliegt. Dann werden die Punkte auf den Kegelmantel übertragen. Dabei wird als Ausgangslinie häufig ein Breitenkreis genommen in diesem Fall laufen dann die Längengrade in der Spitze des Kegels zusammen. Die Karte erhält man dann wenn man den Kegel Aufschneidet und ausrollt. Dann gibt es noch die azimutale Projektion oder planare Projektion diese werden hauptsächlich durch ihr Projektionszentrum bestimmt. Dieser liegt bei gnomonischen Projektionen liegt dieser im Mittelpunkt der Erde, bei stereografischen Projektionen liegt er auf der Erdoberfläche und bei orthografischen Projektionen liegt er unendlich weit entfernt. Die azimutale Projektion wird gebildet, in dem vom Projektionszentrum Geraden zur Projektionsebene gebildet werden. Diese Ebene liegt normalerweise auf der Seite der Erde die dem Projektionszentrum gegenüber liegt. Die Punkte werden dann einfach entlang der gebildeten geraden auf die Ebene verschoben. Dabei werden die meisten geraden Sekanten sein was bedeutet das sie die Erdoberfläche zweimal durchstoßen. Des wegen unterscheidet man noch die Nah-seitige und die Fern-seitige Projektion. Bei der Nah-seitigen Projektion werden die ersten Schnittpunkte auf die Projektionsebene übertragen. Bei der Fern-seitigen Projektion werden entsprechend die zweiten Schnittpunkte auf die Projektionsebene übertragen. Zuletzt gibt es noch Projektionen, die die Koordinaten einfach mittel mathematischer Formeln umwandeln. Diese müssen nicht unbedingt geometrisch beschreibbar sein. 
+\subsection{Welche Kartenprojektionen unterstützt Basemap}
+Das \textsf{Basemap} Modul unterstützt mehrere Projektionen. Die unterstützten Projektionen beschreibe ich kurz im Anhang. Die Folgenden Projektionen werden unterstützt:\\
+\begin{itemize}
+\item Azimuthale äquidistante Projektion\\
+\item Gnomonische Projektion\\
+\item Orthographische Projektion\\
+\item Geostationäre Projektion\\
+\item Nah-seitige perspektivische Projektion \\
+\item Mollweiden Projektion\\
+\item Hammer Projektion\\
+\item Robinson Projektion \\
+\item Eckert 4 Projektion\\
+\item Kavrayskiy 7 Projektion\\
+\item McBryde-Thomas Projektion \\
+\item Sinus-förmige Projektion\\
+\item Äquidistante Zylinderprojektion\\
+\item Cassini Projektion \\
+\item Mercatorprojektion\\
+\item Transversale Mercatorprojektion \\
+\item Schiefe Mercatorprojektion\\
+\item Polykonische Projektion\\
+\item Miller Zylinderprojektion\\
+\item Stereographische Gall Projektion\\
+\item Flächentreue Zylinderprojektion\\
+\item Winkeltreue Lambert Projektion\\
+\item Azimuthale Flächentreue Lambert-Projektion\\
+\item Stereographische Projektion\\
+\item Längentreue Kegelprojektion\\
+\item Flächentreue Albert-Projektion\\
+ \item Polare stereographische Projektion\\
+\item Polare azimutale Lambertprojektion\\
+\item Polare azimuthale äquidistante Projektion \\
+\item Van der Grinten Projektion \\
+\end{itemize}
+Abhängig von der Anwendung sollte man eine dieser Projektionen wählen. Mit diesen Projektionen sollten die meisten Probleme lösbar sein.
